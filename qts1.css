@@ -1,0 +1,65 @@
+body
+{
+  background-attachment: fixed;
+  font-family: 'Trebuchet MS', Arial, sans-serif; 
+  color: white;
+  justify-content: center;
+  margin: 23px 23px 23px 23px;
+  padding: 23px 23px 23px 23px;
+  width: 100%;
+  overflow-x: scroll;
+  box-shadow: 50px;
+  overflow: visible;
+  flex-direction: row;
+  background-image:url("images/oh\ lala.jpg");
+  background-position: center;
+  align-items: center;
+  display: flex;
+
+}
+
+#bloc_page
+{
+  width: 100%; 
+  margin: 5px; 
+}
+.form
+{
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  background-color: #2a2946;
+  background-position: 30px 50px;
+  margin: 30px;
+  padding: 50px;  
+  border-radius: 5px;
+}
+.input{
+    border-radius: 20px; 
+ } 
+
+h1{
+    font-family: 'BallparkWeiner', serif; 
+    font-size: 2.5em; 
+    display: block;
+    padding: 5px;
+    text-align: center;
+    flex: row;
+}
+h2{
+    text-align: center;
+    font-size:larger;
+}
+.btn{
+    background-color:black;
+    color:white;
+    border-color: black;
+    border: auto; 
+    padding: 5px;
+    border-radius: 5px;
+  }
+.bouton{
+  border-radius: 5px;
+  padding:5px;
+}
+ 

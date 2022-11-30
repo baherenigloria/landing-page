@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="qts1.css" />
+        <title>titre</title>
+    </head>
+
+    <body>
+        <div>
+        <header>
+            <div id="bloc_page">
+                <div id="titre principale">
+            <h1>freeCodeCamp Survey Form</h1>
+            <h2><em>Thank you for taking the time to help us improve<br/> the platform</em></h2>
+                </div>
+            </div>
+        </header>
+        <section class="form">
+           <div>
+             <p><label for="Enter your name"> Name</label><br/>
+             <input type="texte" class="bouton" name="Enter your name" id="Enter your name" placeholder="Enter your name"
+                 size="50" maxlength="10"style="width: 600px; height: 20px" /></p>
+            <p><label for="Enter your email"> Email</label><br/>
+                <input type="text" class="bouton" name="Enter your email" id="enter you email" placeholder="Enter your email" 
+                size="50" maxlength="10"style="width: 600px; height: 20px" /></p>    
+            <p><label for="Age"> (Age Optinal) </label><br/>
+                <input type="text" class="bouton" name="Age" id="Age" placeholder="Age" 
+                size="50" maxlength="10" style="width: 600px; height: 20px"/></p>
+
+            <p><label for="Select current Role">Which option best describes your current role?</label><br />
+              <select name="Select current Role" id="Select current Role">
+                <option value="student">Student</option>
+                <option value="Select Current Role">Select Current Role</option>
+                <option value="Full Time Job">Full Time Job</option>
+                <option value="Full Time Learn">Full Time Learn</option>
+                <option value="Prefer Not to Say">Prefer Not To Say</option>
+                <option value="Other">Other</option>
+              </select>
+            </p>
+            <form method="post" action="traitement.php"> 
+            <p>Would you recommend freeCodeCamp to a friend? <br/>
+                <input type="radio" name="freeCodeCamp" value="Definitely" id="Definitely" />
+               <label for="Definitely">Definitely</label><br />
+                <input type="radio" name="freeCodeCamp" value="Maybe" id="Maybe"
+               /> <label for="Maybe">Maybe</label><br />
+                <input type="radio" name="freeCodeCamp" value="Not sure" id="Not sure"
+               /> <label for="Not sure">Not sure</label><br />
+            </p> 
+            </form> 
+             
+            <p><label for="challenges">What is your favorite feature of freeCodeCamp?</label><br />
+                <select name="Select an option" id="Select current Role">
+                  <option value="challenges">Challenges</option>
+                  <option value="projects">Projects</option>
+                  <option value="community">Community</option>
+                  <option value="open source">Open Source</option>
+                </select>
+              </p>
+
+              <form method="post" action="traitement.php">
+                <p>What would you like to see improved? (Check all that apply)<br />
+                <input type="checkbox" name="Front-end Projects" id="Front-end Projects"/><label for="Front-end Projects">
+                    Front-end Projects </label><br />
+                <input type="checkbox" name="Back-end Projects" id="Back-end Projects" /><label for="Back-end Projects">
+                    Back-end Projects</label><br />
+                <input type="checkbox" name="Data Visualization" id="Data Visualization" /> <label
+               for="Data Visualization">Data Visualization</label><br />
+                <input type="checkbox" name="Challenges" id="Challenges" /> <label for="Challenges">Challenges</label><br/>
+               <input type="checkbox" name="Open Source Community" id="Open Source Community" /> <label
+               for="Open Source Community">Open Source Community</label><br/>
+               <input type="checkbox" name="Gitter help rooms" id="Gitter help rooms" /> <label
+               for="Gitter help rooms">Gitter help rooms</label><br/>
+               <input type="checkbox" name="Videos" id="Videos" /> <label for="Videos">Videos</label><br/>
+               <input type="checkbox" name="City Meetups" id="City Meetups" /> <label
+               for="City Meetups">City Meetups</label><br/>
+               <input type="checkbox" name="Wiki" id="Wiki" /> <label
+                for="Wiki">Wiki</label><br/>
+               <input type="checkbox" name="Forum" id="Forum" /> <label 
+               for="Forum">Forum</label><br/>
+               <input type="checkbox" name="Additional Courses" id="Additional Courses" /> <label
+                for="Additional Courses">Additional Courses</label><br/>
+                </p>
+               </form> 
+               <form method="post" action="traitement.php">
+                 <p><label for="ameliorer">Any comments or suggestions?</label><br />
+                <textarea input type="search" name="choix" id="search" placeholder="Enter your comment here" rows="5"  sixe="100" maxlength="50" 
+                style="width: 600px; height: 50px"  class="bouton" ></textarea></p> 
+                </form>
+               <input type="submit" class="btn" value="Submit" style="width: 600px; height: 50px"/>
+           </div>    
+        </section>
+       </div>
+        
+    </body>
+
+</html>
